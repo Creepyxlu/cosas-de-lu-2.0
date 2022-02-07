@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%  ;
+    grid-template-areas:
+    "header header header header nav"
+    "caja1 caja2 caja3 caja4 caja4"
+    "caja1 caja2 caja3 caja4 caja4"
+    "caja1 caja2 caja3 caja4 caja4"
+    "caja1 caja2 caja3 caja4 caja4"
+    "caja1 caja2 caja3 caja4 caja4"
+    "caja1 caja2 caja3 caja4 caja4"
+    "caja1 caja2 caja3 caja4 caja4"
+    "footer footer footer footer footer";
+    
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+
+    background-color: #6867AC;
+
+}
+
+
+.caja1{
+    background-color: #B34180;
+    grid-area: caja1 ;
+}
+
+.caja2{
+    background-color: #B34180;
+    grid-area: caja2 ;
+}
+
+.caja3{
+    background-color: #B34180;
+    grid-area: caja3 ;
+}
+
+.caja4{
+    background-color: #B34180 ;
+    grid-area: caja4 ;
+}
+
+
+header{
+    background-color: #A267AC ;
+    grid-area: header;
+}
+
+footer{
+    background-color: #886F6F;
+    grid-area: footer ;
+}
+nav{
+    background-color: #864879;
+    grid-area: nav;
+}
+
+.caja1,.caja2,.caja3,.caja4{
+    height: 500px;
+    width: 200x;
+}
